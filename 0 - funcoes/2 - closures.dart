@@ -22,6 +22,6 @@ Function soma(int numero1) {
   };
 }
 
-int somaComFuncao(int numero, Function pegaNumero2) {
+num somaComFuncao(int numero, Function pegaNumero2) {
   return numero + pegaNumero2();
 }

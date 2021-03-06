@@ -9,7 +9,7 @@ int soma(int numero, int numero2) {
   return numero + numero2;
 }
 
-int somaNomeada({int numero, int numero2}) {
+int somaNomeada({int numero: 0, int numero2: 0}) {
   return numero + numero2;
 }
 
@@ -18,6 +18,6 @@ int somaNomeadaDefault({int numero = 0, int numero2 = 0}) {
 }
 
 //se estiver entre [] eh opcional
-void imprimir(String nome, [int idade]) {
-  print('O nome do paciente é $nome ${idade != null ? 'e tem $idade anos' : ''}');
+void imprimir(String nome, [int idade=0]) {
+  print('O nome do paciente é $nome ${idade >= 1 ? 'e tem $idade anos' : ''}');
 }
