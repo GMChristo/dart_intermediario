@@ -5,3 +5,5 @@
 
 ### Nesse modulo alguns topicos vistos foram:
 * Funções
+* List
+* Sets(sets, HashSte, SplayTreeSet)
