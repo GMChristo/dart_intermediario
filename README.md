@@ -7,3 +7,6 @@
 * Funções
 * List
 * Sets(sets, HashSte, SplayTreeSet)
+* Maps
+* Exceptions
+* Desafio
